@@ -1,0 +1,488 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/* for animation of STORM GAMING */
+svg {
+    font-family: 'Russo One', sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/*  */
+svg text {
+    text-transform: uppercase;
+    animation: stroke 5s infinite alternate;
+    stroke-width: 2;
+    stroke: #365fa0;
+    font-size: 140px;
+}
+
+/* text animation */
+@keyframes stroke {
+    0% {
+        fill: rgba(170, 250, 11, 0);
+        stroke: rgb(110, 26, 200);
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 0 50%;
+        stroke-width: 2;
+    }
+
+    70% {
+        fill: rgba(41, 157, 196, 0);
+        stroke: rgb(204, 183, 26);
+    }
+
+    80% {
+        fill: rgba(107, 233, 11, 0);
+        stroke: rgb(27, 184, 152);
+        stroke-width: 3;
+    }
+
+    100% {
+        fill: rgb(243, 111, 17);
+        stroke: rgba(167, 48, 188, 0);
+        stroke-dashoffset: -25%;
+        stroke-dasharray: 50% 0;
+        stroke-width: 0;
+    }
+}
+
+/* main section */
+.header {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: #1b1945;
+    position: fixed;
+    z-index: 5 !important;
+}
+
+/* css of STORM */
+.Name {
+    width: 30%;
+    height: auto;
+    font-size: 35px !important;
+    padding: 0px !important;
+    margin-left: 2%;
+    margin-top: 0.8% !important;
+    color: white;
+}
+
+/*  */
+.Name a {
+    color: white;
+    text-decoration: none;
+}
+
+/* navigation css */
+.navbar {
+    width: 70%;
+    height: auto;
+    font-size: 20px !important;
+    position: sticky;
+    margin-left: 15%;
+}
+
+/*  */
+.navbar-link li {
+    display: inline-block;
+    padding: 0px 0px;
+    margin-left: 4.5% !important;
+}
+
+/*  */
+.navbar-link a {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: capitalize;
+}
+
+/* get now button */
+.get {
+    background-color: red;
+    color: white !important;
+    padding: 21.1px 52.3px !important;
+}
+.dropdown {
+    position: relative;
+}
+
+/*  */
+.dropdown-menu {
+    display: none;
+    text-align: center;
+    background-color: #f0ce0e;
+    width: 220px !important;
+    height: auto;
+    margin: 0;
+    margin-top: 0% !important;
+    padding: 15px 10px !important;
+    padding-top: -15% !important;
+    line-height: 2 !important;
+}
+
+.dropdown-menu li {
+    color: black !important;
+}
+
+.dropdown-menu li a
+{
+    color: #ed0789;
+}
+/*  */
+.dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    margin-left: -65% !important;
+}
+
+/* css of STORM GAMING */
+.first {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.first-1 img
+{
+    width: 100%;
+    height: 675px;
+    margin-top: 4.1%;
+    background-size: 100% 100%;
+}
+.first-1 .anime
+{
+    z-index: 1 !important;
+}
+
+
+/*  */
+.second {
+    padding-top: 25%;
+    /* padding-left: 10%; */
+    margin-left: 5%;
+    color: aqua;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* animation: heartBeat 3s infinite; */
+}
+
+/*  */
+h1 {
+    font-family: 'Lemon', cursive !important;
+}
+
+/*  */
+h3 {
+    color: olive;
+    font-family: 'Fira Mono', monospace;
+}
+
+/*  */
+h2 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+/*  */
+.container {
+    width: 90%;
+    margin: auto;
+    height: auto;
+    bottom: 1px solid red;
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-evenly;
+}
+
+/*  */
+.child {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-left: 1%;
+}
+
+/*  */
+.child2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 1%;
+    padding-left: 1%;
+}
+
+/*  */
+.img1 {
+    width: 30%;
+    height: auto;
+}
+
+/*  */
+.img1 img {
+    height: 100%;
+    width: 100%;
+}
+
+/*  */
+.content {
+    width: 60%;
+    height: auto;
+    padding: 5px 20px;
+}
+
+/*  */
+.main2 {
+    width: 45%;
+    background-color: bisque;
+    border-radius: 10px;
+    padding-left: 1%;
+}
+
+/*  */
+.container hr {
+    width: 90%;
+    color: darkgrey;
+    margin-left: 0.5%;
+}
+
+/*  */
+p {
+    text-align: justify;
+    font-family: 'Fira Mono', monospace;
+    color: orange;
+}
+
+/*  */
+.main3 {
+    width: 45%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding-left: 1%;
+}
+
+/*  */
+.new {
+    background-color: gray;
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    padding: 30px 0px;
+}
+
+/*  */
+.master {
+    width: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 10px 10px;
+    border-radius: 15px;
+    margin-top: 2%;
+}
+
+/*  */
+.text {
+    width: 45%;
+    height: 100%;
+    color: black;
+}
+
+/*  */
+.pic {
+    width: 45%;
+    height: auto;
+    background-color: darkgoldenrod;
+}
+
+/*  */
+.pic img {
+    width: 100%;
+    height: 100%;
+}
+
+/*  */
+h4 {
+    font-size: 40px;
+    margin: 0 !important;
+    margin-top: 12% !important;
+    background: -webkit-linear-gradient(#ed0789, #1d05a6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*  */
+.bgc {
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    background-color: #5c5852;
+}
+
+/*  */
+.footer {
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    display: flex;
+    background-color: #5c5852;
+}
+
+/*  */
+.footer-text {
+    width: 30%;
+    height: auto;
+    color: #ed0789;
+    font-size: 35px;
+    margin-left: 3%;
+}
+
+/*  */
+.footer-text a {
+    text-decoration: none;
+    color: #ed0789;
+}
+
+/*  */
+.foot-bar {
+    width: 70%;
+    height: auto;
+    font-size: 20px;
+    line-height: 4;
+}
+
+/*  */
+.foot-info {
+    display: flex;
+    padding: 0px 0px;
+    margin-left: -28%;
+    list-style-type: none;
+    /* margin-left: 1%; */
+    margin-top: -1.8%;
+}
+
+/*  */
+.foot-info a {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: capitalize;
+    padding: 15px;
+}
+
+/* .foot-info a:hover
+{
+    text-decoration: underline;
+} */
+
+/*  */
+.foot {
+    /* float: left; */
+    width: 50%;
+}
+
+/*  */
+.row {
+    float: left;
+}
+
+/*  */
+.bottom {
+    margin-left: 6%;
+    font-size: 25px;
+    color: white;
+}
+
+/*  */
+.down {
+    line-height: 1.8;
+    margin-left: 1%;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+/*  */
+.down a {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/*  */
+.bottom-row {
+    width: 25%;
+    color: white;
+    margin-left: 0%;
+    margin-top: 1%;
+}
+
+/*  */
+
+@media only screen and (min-width:320px) and (max-width:576px) {
+    #header {
+        width: 100%;
+        height: auto;
+        padding: 2px;
+        flex-direction: column;
+        background-color: #1b1945;
+        position: fixed;
+        z-index: 5 !important;
+    }
+
+    .Name {
+        width: 95%;
+        height: auto;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px !important;
+        margin-left: 2%;
+        margin-top: 1.3%;
+        color: white;
+    }
+
+    .Name a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .navbar {
+        width: 70%;
+        height: auto;
+        font-size: 20px;
+        position: sticky;
+    }
+
+    .navbar-link {
+        width: 100%;
+        display: none;
+    }
+
+    .navbar-link li {
+        display: block;
+        text-align: center;
+        padding: 0px 0px;
+        margin-left: 6.5%;
+        margin-top: 10%;
+    }
+
+    .navbar-link a {
+        color: white;
+        text-decoration: none;
+        list-style-type: none;
+        text-transform: capitalize;
+    }
+
+    .get {
+        background-color: red;
+        color: white !important;
+        padding: 23.1px 50px;
+    }
+}

@@ -1,0 +1,60 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("../Images/4k.webp");
+    height: 100vh;
+    background-size: 100% 100%;
+}
+.frm
+{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    position: fixed;
+    margin-top: 13%;
+    
+}
+h1
+{
+    text-align: center;
+    font-size: 35px;
+    color: red;
+}
+form
+{
+    margin-left: 5%;
+    margin-top: -5%;
+}
+label
+{
+    margin-left: 23%;
+    color: white;
+}
+input
+{
+    width: 50%;
+    height: auto;
+    margin-left: 23%;
+}
+textarea
+{
+    width: 50%;
+    height: 50px;
+    margin-left: 23%;
+}
+input[type=submit]
+{
+    width: 25.1%;
+    border: none;
+    margin-top: 2%;
+    box-shadow: none;
+}
+[type=reset]
+{
+    width: 25.1%;
+    box-shadow: none;
+    margin-left: 0%;
+    border: none;
+}

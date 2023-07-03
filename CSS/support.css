@@ -1,0 +1,52 @@
+body
+{
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background: url(../Images/night.jpg) no-repeat;
+    height: 79vh !important;
+    background-size: 100% 100%;
+}
+.frm
+{
+    width: 100%;
+    height: auto;   
+    background-color: transparent;
+}
+h1
+{
+    font-size: 40px;
+    margin-left: 8%;
+    color: orange;
+}
+.help
+{
+    width: 70%;
+    margin: auto;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+input
+{
+    width: 50%;
+}
+label
+{
+    width: 50%;
+    color: white;
+}
+input[type="submit"]
+{
+    width: 25%;
+    margin-top: 1%;
+    height: 35px;
+    border: 1px solid black;
+}
+input[type="reset"]
+{
+    width: 25.2%;
+    height: 35px;
+    border: 1px solid black;
+    color: white;
+}
